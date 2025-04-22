@@ -181,8 +181,7 @@ select {
     font-family: 'Clash-Display';
     color: #212225;
     font-weight: 510;
-    font-size: 6.2rem;
-    width:45%;
+    font-size: 4rem;
     line-height: 100%;
 }
 
@@ -231,6 +230,7 @@ select {
     height: 73%;
     border-radius: 2.5vh;
     background-size:cover;
+    background-position: center;
 }
 
 .final-gap{
