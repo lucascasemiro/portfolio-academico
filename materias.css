@@ -172,7 +172,7 @@ select {
     display: flex;
     justify-content: space-between;
     width: 83%;
-    height: 30vh;
+    height: 35vh;
     align-items: last baseline;
     justify-self: center;
 }
@@ -182,7 +182,8 @@ select {
     color: #212225;
     font-weight: 510;
     font-size: 6.2rem;
-    margin-top: 5.8%;
+    width:45%;
+    line-height: 100%;
 }
 
 .redirect-btn {
