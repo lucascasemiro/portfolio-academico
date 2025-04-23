@@ -123,17 +123,6 @@
         margin-bottom: 1.8%;
     }
 
-
-    .redirect-btn {
-        font-family: 'Clash-Grotesk';
-        color: #212225;
-        font-size: 1.8rem;
-        font-weight: 533;
-        cursor: pointer;
-        user-select: none;
-
-    }
-
     .redirect-btn {
         font-family: 'Clash-Grotesk';
         color: #212225;
@@ -143,10 +132,12 @@
         user-select: none;
         position: relative;
         transition: font-weight 0.3s ease;
+        
         width:30%;
     }
     .redirect-btn:hover{
         font-weight:550;
+        
     }
     .redirect-btn::after {
         content: ' ->';

@@ -7,6 +7,8 @@
     <title>Lucas Casemiro</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="favicon.png">
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
 </head>
 
 <body>
@@ -20,7 +22,7 @@
                 <a href="#trabalhos">Trabalhos</a>
             </div>
         </div>
-        <div id="section-content">
+        <div id="section-content" data-aos="fade-up" data-aos-duration="1000">
             <img id="extended-img" src="Group 6.png">
             <div class="menu-title">Lucas<br>Casemiro<br></div>
             <div class="menu-subtitle">Estudante do Ensino Médio e Curso Técnico em Desenvolvimento de Sistemas</div>
@@ -28,17 +30,17 @@
     </section>
 
     <section id="sobre">
-        <div id="section-content">
-            <div class="section-title">Sobre Mim</div>
+        <div id="section-content"data-aos="fade-up" data-aos-duration="1000">
+            <div class="section-title" >Sobre Mim</div>
             <div class="section-text">Sou estudante do ensino médio na Escola SESI e aspirante a uma carreira como Desenvolvedor Front-End ou Designer Gráfico. Sou fascinado pelo cenário web-tecnológico e tenho paixão pelo que faço, o que tornou disso minha meta profissional.<br><br>Desde cedo, sou interessado por design gráfico e venho desenvolvendo projetos desde então. Com o passar dos anos, enxerguei o desenvolvimento Front-End como uma possível porta de entrada para um grande mercado, que se alia às minhas habilidades gráficas.<br><br>Em 2025, iniciei minha preparação para vestibulares e pretendo cursar Sistemas de Informação na UFSC.</div>
-                <div class="redirect-btn" onclick="window.open('https://drive.google.com/file/d/1ByVEEvfVUd0cxIBY5MhScbQOWh98XsO-/view?usp=sharing', '_blank')">Veja meu Currículo</div>
+                <div class="redirect-btn"  onclick="window.open('https://drive.google.com/file/d/1ByVEEvfVUd0cxIBY5MhScbQOWh98XsO-/view?usp=sharing', '_blank')">Veja meu Currículo</div>
         </div>
     </section>
 
-    <section id="trabalhos">
+    <section id="trabalhos" >
         <div id="section-content">
-            <div class="section-title">Trabalhos</div>
-            <div class="boxes">
+            <div class="section-title"data-aos="fade-up" data-aos-duration="1000">Trabalhos</div>
+            <div class="boxes"data-aos="fade-up" data-aos-duration="1000">
                 <div class="ensino-medio">
                     <div class="box-title">Ensino Médio</div>
                     <div class="materia" onclick="location.href='mat.html'">
@@ -85,6 +87,7 @@
             <div class="copyright-section">© 2025 Lucas Casemiro. Todos os direitos reservados</div>
         </footer>
     </section>
+    <script>AOS.init();</script>
 </body>
 
 </html>
