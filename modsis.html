@@ -7,10 +7,19 @@
     <title>Modelagem de Sistemas - Lucas Casemiro</title>
     <link rel="stylesheet" href="materias.css">
     <link rel="icon" href="favicon.png">
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
 </head>
 
-<body>
-    <div id="topnav-desktop">
+<body >
+    <div id="overlay">
+        <div id="iframe-options">
+            <div id="iframe-name"></div>
+            <i id="iframe-esc" data-lucide="x" onclick="closePreview()"></i>
+        </div>
+        <iframe src="https://docs.google.com/spreadsheets/d/1qRVa_Q3pLiyVlsLFWtQotY_eiKNx0dTd5fE40DGhsg8/edit?usp=sharing" frameborder="0"></iframe>
+    </div>
+    <div id="topnav-desktop"data-aos="fade" data-aos-duration="1000">
         <a href="mailto:lucasfrarre@gmail.com">lucasfrarre@gmail.com</a>
         <div class="nav-href">
             <a href="index.html">Início</a>
@@ -19,17 +28,21 @@
             <a href="index.html#trabalhos">Trabalhos</a>
         </div>
     </div>
-    <div id="materia">
-            <div class="title-materia">Modelagem de Sistemas</div>
-<div class="select"></div>
-</div>
-<section>
-    <div id="section-content">
-        <div class="text-trabalho">
-            <div class="title-tt">Requisitos e Regras de Negócio</div>
-            <div class="trimestre">1º Trimestre</div>
-            <div class="text-tt">De acordo com os conceitos ensinados em sala de aula, criamos uma planilha com os requisitos funcionais, não funcionais e regras de negócio que funcionariam para o site de uma hamburgueria local. Foram desenvolvidas as habilidades H4, H7 e H8.</div>
-            <div class="redirect-btn" onclick="window.open('https://docs.google.com/spreadsheets/d/1qRVa_Q3pLiyVlsLFWtQotY_eiKNx0dTd5fE40DGhsg8/edit?usp=sharing')">Acessar</div>
+    <div id="materia"data-aos="fade" data-aos-duration="1000">
+        <div class="title-materia">Modelagem de Sistemas</div>
+        <div class="select"></div>
+    </div>
+    <section data-aos="fade" data-aos-duration="1000">
+        <div id="section-content">
+            <div class="text-trabalho">
+                <div class="title-tt">Requisitos e Regras de Negócio</div>
+                <div class="trimestre">1º Trimestre</div>
+                <div class="text-tt">De acordo com os conceitos ensinados em sala de aula, criamos uma planilha com os requisitos funcionais, não funcionais e regras de negócio que funcionariam para o site de uma hamburgueria local. Foram desenvolvidas as habilidades H4, H7 e H8.</div>
+                <div class="redirects-trabalho">
+                    <div class="redirect-btn" onclick="window.open('https://docs.google.com/spreadsheets/d/1qRVa_Q3pLiyVlsLFWtQotY_eiKNx0dTd5fE40DGhsg8/edit?usp=sharing')">Acessar</div>
+                    <div class="redirect-btn2" onclick="openPreview()">Ver Prévia</div>
+                </div>
+
 
         </div>
         <div class="img-trabalho" style="background-image:url('modsis1.png');"></div>
@@ -52,6 +65,8 @@
     </footer>
 </section>
 <script src="script.js"></script>
+<script src="https://unpkg.com/lucide@latest"></script>
+<script>AOS.init();</script>
 </body>
 
 </html>
